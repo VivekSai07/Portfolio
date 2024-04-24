@@ -21,7 +21,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 1,
         projectName: "Ensemble Classification for Chest Cancer Diagnosis from Diverse CT Scan Images",
         url: "https://github.com/VivekSai07/Ensemble-Classification-for-Chest-Cancer-Diagnosis-from-Diverse-CT-Scan-Images",
         image: "projects/chestcancer.png",
@@ -45,7 +45,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 2,
         projectName: "CineSphere: Personalized Movie Explorer with K-Means Recommendations",
         url: "https://github.com/VivekSai07/CineSphere-Personalized-Movie-Explorer-with-K-Means-Recommendations",
         image: "projects/movieRecommender.jpg",
@@ -66,7 +66,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 3,
         projectName: "SentimentBlend: Unified Facial and Text Emotion Analysis",
         url: "https://github.com/VivekSai07/Unified-Facial-and-Text-Emotion-Analysis",
         image: "projects/SentimentBlend.jpeg",
@@ -84,7 +84,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 4,
         projectName: "Text2Image Search System",
         url: "https://github.com/VivekSai07/Text2Image-Search-System",
         image: "projects/Text2Image.png",
@@ -105,7 +105,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 5,
         projectName: "Zinga Interview Companion",
         url: "https://github.com/VivekSai07/Zinga-Interview-Companion",
         image: "projects/Zinga.png",
@@ -123,7 +123,7 @@ const portfolio = [
         ]
     },
     {
-        id: 0,
+        id: 6,
         projectName: "MATLAB based Biped Walking Robot",
         url: "https://github.com/VivekSai07/Biped-Walking-Robot-Simulation-in-MATLAB",
         image: "projects/biped.jpg",
@@ -138,7 +138,7 @@ const portfolio = [
         ]
     },
     {
-        id: 1,
+        id: 7,
         projectName: "RoboViz: MATLAB Robotics Visualization Tool",
         url: "https://github.com/VivekSai07/RoboViz-MATLAB",
         image: "projects/RoboViz.png",
@@ -156,7 +156,7 @@ const portfolio = [
         ]
     },
     {
-        id: 2,
+        id: 8,
         projectName: "Robotic Arm Kinematics Simulation",
         url: "https://github.com/VivekSai07/Robotic-Arm-Kinematics-Simulation",
         image: "projects/kinematics.jpg",
@@ -170,27 +170,24 @@ const portfolio = [
             }
         ]
     },
-    // {
-    //     id: 2,
-    //     projectName: "Culyte",
-    //     url: "https://culyte.com",
-    //     image: "projects/culyte.png",
-    //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-    //     technologiesUsed: [
-    //         {
-    //             tech: "ReactJS"
-    //         },
-    //         {
-    //             tech: "NodeJS"
-    //         },
-    //         {
-    //             tech: "Ant Design"
-    //         },
-    //         {
-    //             tech: "TailwindCSS"
-    //         },
-    //     ]
-    // },
+    {
+        id: 9,
+        projectName: "GestureCraft: Personalized Hand Gesture Recognition",
+        url: "https://github.com/VivekSai07/Hand-Gesture-Detector",
+        image: "projects/handGesture.jpg",
+        projectDetail: "This project implements real-time hand gesture recognition using OpenCV and MediaPipe. It detects and classifies gestures such as Right, Left, Rotate, Straight, and Back. The system captures video input from a webcam, processes it to isolate the hand, and then applies classification to determine the gesture being performed.",
+        technologiesUsed: [
+            {
+                tech: "OpenCV"
+            },
+            {
+                tech: "MediaPipe"
+            },
+            {
+                tech: "TeachableMachine"
+            }
+        ]
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)

@@ -11,7 +11,7 @@ const background = [
             {
                 id: 1,
                 title: 'Narayana Junior College',
-                degree: 'Intermediate, Pre Engineering',
+                degree: 'Intermediate (11th & 12th)',
                 detail: "Completed Intermediate studies (+1, & +2, which are prerequisites for engineering) in Andhra Pradesh.",
                 year: '2018-2020'
             },
@@ -30,7 +30,7 @@ const background = [
                 id: 1,
                 title: 'IIITDM Kancheepuram',
                 role: 'Research Intern',
-                url: 'https://jmm.ltd/',
+                url: 'https://old.iiitdm.ac.in/docs/2%20Vritika%20Brochure_revised.pdf',
                 desc: "The primary objective of the research was to achieve precise Liver Tumor Classification. So, I've developed and implemented an innovative model that combines keras pre-trained models with vision transformers (HybridViT). By employing deep learning algorithms and image processing techniques, I made valuable contributions to the progress of medical imaging technolog",
                 year: '06/2023 - 08/2023',
                 location: 'Kancheepuram, Chennai, Tamil Nadu'

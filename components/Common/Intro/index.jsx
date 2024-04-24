@@ -27,8 +27,8 @@ const Intro = () => {
       {/* middle components */}
       <div className='beech z-20 flex flex-col overflow-y-scroll pt-64 top-64 space-y-6 divide-y divide-white overflow-x-hidden no-scrollbar px-4'>
         <Location />
-        <Languages />
         <Skills />
+        <Languages />
         <Tools />
         <Contact />
         <Download icon={<FaDownload />} />

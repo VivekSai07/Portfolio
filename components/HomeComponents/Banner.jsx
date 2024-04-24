@@ -10,19 +10,22 @@ const Banner = () => {
                     <div className="flex items-center md:items-center md:justify-around">
                         <div className="">
                             <div className="">
-                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>
+                                {/* <img src="/images/Hand.gif" alt="Hand" className="ml-2 h-8 w-8" /> Added Hand.gif */}
+                                <h1 className="text-3xl sm:text-4xl xl:text-5xl text-Snow font-bold">Hello, Check This Out!</h1>                            
                             </div>
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                                     <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I am a  <span className="inline-block">
+                                        {">"} <span className="text-Snow sm:text-xl xl:text-3xl font-bold"> I am <span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['AI Developer',
-                                                         'Robotics Enthusiast',
-                                                         'ML Engineer',
-                                                         'Open Source Contributor'],
+                                                        ['an AI Developer',
+                                                         'a Robotics Enthusiast',
+                                                         'an ML Engineer',
+                                                         'an Enthusiastic Researcher',
+                                                         'into Python Coding',
+                                                         'an Open Source Contributor'],
                                                     autoStart: true,
                                                     loop: true,
                                                 }}
@@ -31,7 +34,7 @@ const Banner = () => {
                                         </span> {"</"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>{">"} </span>
                                 </div>
                             </div>
-                            <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
+                            {/* <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link> */}
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
                             <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />

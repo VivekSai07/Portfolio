@@ -52,12 +52,12 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className="h-16 w-full card_stylings text-xl sm:text-3xl flex gap-x-8 sm:gap-x-16 items-center justify-center text-Snow">
-                    <a className='hover:scale-125 ease-in-out duration-700' href="" target='_blank' rel="noreferrer"><HiMail /></a>
+                    <a className='hover:scale-125 ease-in-out duration-700' href="mailto:viveksaisurya07@gmail.com" target='_blank' rel="noreferrer"><HiMail /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://github.com/VivekSai07" target='_blank' rel="noreferrer"><FaGithub /></a>
                     <a className='hover:scale-125 ease-in-out duration-700' href="https://www.linkedin.com/in/vivek-sai-5b363221a/" target='_blank' rel="noreferrer"><FaLinkedin /></a>
                     {/* <a className='hover:scale-125 ease-in-out duration-700' href="https://x.com/iosamajavaid" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
-                    <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a>
-                    <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a>
+                    {/* <a className='hover:scale-125 ease-in-out duration-700 hidden sm:block' href="https://www.fiverr.com/codeworthy" target='_blank' rel="noreferrer"><Fiverr_Icon /></a> */}
+                    {/* <a className='hover:scale-125 ease-in-out duration-700 text-2xl sm:text-4xl mt-1' href="#" target='_blank' rel="noreferrer"><SiUpwork /></a> */}
                 </div>
 
 

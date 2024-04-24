@@ -24,14 +24,22 @@ const recommendationCard = [
     view: "Vivek is a highly skilled and reliable expert in the field of Robotics, as I have had the chance to witness firsthand. His unwavering dedication to achieving stellar outcomes positions him as an exceptional candidate for both advanced studies at the Master's level and for thriving in professional roles. I wholeheartedly endorse Vivek for his continued success in academia and his future endeavors in the workforce.",
     linkednURL: "https://www.linkedin.com/in/kondeti-vasudev-8b001b51/"
   },
-  // {
-  //   id: 3,
-  //   name: 'Muhammad Ullah',
-  //   image: "images/muhammad.jpeg",
-  //   designation: 'MERN Stack Developer at Productbox',
-  //   view: "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
-  //   linkednURL: "https://www.linkedin.com/in/muhammadullahafridi/"
-  // },
+  {
+    id: 3,
+    name: 'Dr. Soumyendra Singh',
+    image: "images/soumyendra.png",
+    designation: 'Assistant Professor - S&H',
+    view: "Having collaborated closely with Vivek, I've observed his remarkable blend of creativity and technical prowess. Vivek's contributions to our projects have consistently surpassed expectations, reflecting his strong work ethic and passion for the subject. I confidently endorse Vivek for his exceptional skills and unwavering commitment to excellence.",
+    linkednURL: "https://www.amrita.edu/faculty/soumyendra-singh/"
+  },
+  {
+    id: 4,
+    name: 'Dr. S Sridevi',
+    image: "images/sridevi.jpg",
+    designation: 'Associate Professor',
+    view: "It has been a pleasure to work alongside Vivek. His ability to seamlessly integrate theoretical knowledge with practical applications sets him apart as a standout professional. I wholeheartedly recommend Vivek for his exemplary performance and potential for continued success in his academic and professional pursuits.",
+    linkednURL: "https://www.linkedin.com/in/sridevi-s-62543264/"
+  },
 ]
 export default function handler(req, res) {
   res.status(200).json(recommendationCard)
