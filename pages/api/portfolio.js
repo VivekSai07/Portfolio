@@ -188,6 +188,21 @@ const portfolio = [
             }
         ]
     },
+    {
+        id: 10,
+        projectName: "Visual Parking Tracker: Automating Car Space Counting",
+        url: "https://github.com/VivekSai07/Visual-Parking-Tracker-Automating-Space-Counting-with-OpenCV-and-Python",
+        image: "projects/carPark.jpg",
+        projectDetail: "This project utilizes OpenCV to detect car parking spaces in a given video feed. It allows users to manually select and mark car parking spaces on an image. It provides a simple interface where users can click to mark parking spots and undo markings if necessary. The program provides real-time feedback on the number of free parking spaces available.",
+        technologiesUsed: [
+            {
+                tech: "OpenCV"
+            },
+            {
+                tech: "Image Processing"
+            }
+        ]
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)
