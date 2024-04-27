@@ -1,6 +1,6 @@
 <div align="center">
   This website is fully responsive personal portfolio, <br />Responsive for all devices, built using Nextjs, TailwindCSS only.
-  <a href="https://vivek-portfolio-dr2da5a5f-viveksai07s-projects.vercel.app/"><strong>➥ Live Demo</strong></a>
+  <a href="https://vivek-portfolio-mocha.vercel.app/"><strong>➥ Live Demo</strong></a>
 </div>
 
 <br />
