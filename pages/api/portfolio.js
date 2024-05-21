@@ -203,6 +203,30 @@ const portfolio = [
             }
         ]
     },
+    {
+        id: 11,
+        projectName: "Differential Drive FusionBot: From CAD to Autonomous Mapping",
+        url: "https://github.com/VivekSai07/Differential-Drive-Bot-Simulation",
+        image: "projects/diffdrive.png",
+        projectDetail: "This project aims to provide a comprehensive simulation environment for a differential drive robot. The robot model is designed in Fusion 360 and converted to URDF. It is controlled using ROS and simulated in Gazebo, featuring a laser sensor for mapping purposes.",
+        technologiesUsed: [
+            {
+                tech: "Fusion 360"
+            },
+            {
+                tech: "Gazebo Simulation"
+            },
+            {
+                tech: "ROS"
+            },
+            {
+                tech: "Teleoperation"
+            },
+            {
+                tech: "Sensor Integration"
+            }
+        ]
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(portfolio)
