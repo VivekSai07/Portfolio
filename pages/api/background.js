@@ -3,25 +3,32 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'Amrita Vishwa Vidyapeetham',
-                degree: 'B.Tech, Computer System & Engineering (Artificial Intelligence)',
-                detail: "Bachelor's Degree in Computer System & Engineering with specialization in Artificial Intelligence from Amrita Vishwa Vidyapeetham, Chennai.",
-                year: '2020-2024'
+                title: 'University of Stuttgart',
+                degree: 'Masters, Computer Science',
+                detail: "Masters in Computer Science with major in Autonomous Systems.",
+                year: '2024-2026'
             },
             {
                 id: 1,
+                title: 'Amrita Vishwa Vidyapeetham',
+                degree: 'B.Tech, Computer Science & Engineering (Artificial Intelligence)',
+                detail: "Bachelor's Degree in Computer Science & Engineering with specialization in Artificial Intelligence from Amrita Vishwa Vidyapeetham, Chennai.",
+                year: '2020-2024'
+            },
+            {
+                id: 2,
                 title: 'Narayana Junior College',
                 degree: 'Intermediate (11th & 12th)',
                 detail: "Completed Intermediate studies (+1, & +2, which are prerequisites for engineering) in Andhra Pradesh.",
                 year: '2018-2020'
             },
-            // {
-            //     id: 2,
-            //     title: 'Narayana Olympiad School',
-            //     degree: 'SSC, Science Subjects',
-            //     detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-            //     year: '2016-2018'
-            // },
+            {
+                id: 3,
+                title: 'Narayana Olympiad School',
+                degree: 'SSC, Science Subjects',
+                detail: "Completed Secondary School Education at Narayana School.",
+                year: '2016-2018'
+            },
         ]
     },
     {
