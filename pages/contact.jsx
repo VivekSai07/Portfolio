@@ -20,15 +20,15 @@ const Contact = () => {
                         <div className="card_stylings w-full md:w-1/2 p-5 md:p-6 lg:p-8 flex flex-col gap-y-4">
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Country:</span>
-                                <span className='text-LightGray md:text-sm'>India</span>
+                                <span className='text-LightGray md:text-sm'>Germany</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>City:</span>
-                                <span className='text-LightGray md:text-sm'>Rajahmundry</span>
+                                <span className='text-LightGray md:text-sm'>Stuttgart</span>
                             </div>
                             <div className="flex justify-between items-center">
                                 <span className='md:text-base'>University:</span>
-                                <span className='text-LightGray md:text-sm'>Amrita Vishwa Vidyapeetham</span>
+                                <span className='text-LightGray md:text-sm'>University of Stuttgart</span>
                             </div>
                             {/* <div className="flex justify-between items-center">
                                 <span className='md:text-base'>Company:</span>

@@ -1,6 +1,15 @@
 const honor = [
     {
         id: 0,
+        title: "Degree Certificate",
+        issuedBy: 'Amrita Vishwa Vidyapeetham',
+        issuedDate: 'July 2024',
+        description: "Awarded the Bachelor of Technology in Computer Science and Engineering (Artificial Intelligence) with First Class Distinction from Amrita Vishwa Vidyapeetham, Chennai, achieving a CGPA of 8.83.",
+        thumbnail: "images/DegreeCertificate.jpg",
+        certificateLink: "https://drive.google.com/file/d/13BSEBrtwW3rAopsB_U3PpWELa1fGm8YV/view?usp=sharing"
+    },
+    {
+        id: 0,
         title: "Rank Certificate",
         issuedBy: 'Amrita Vishwa Vidyapeetham',
         issuedDate: 'Sep 2024',

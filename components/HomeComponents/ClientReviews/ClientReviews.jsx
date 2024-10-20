@@ -16,7 +16,7 @@ const ClientReviews = () => {
     return (
         <>
             <div className="px-2 md:px-8 py-4 text-lg font-bold text-Snow">Research Publications</div>
-            <div className="overflow-x-auto w-full grid  justify-items-center grid-flow-col gap-4 px-2 md:px-8 pt-2 pb-4">
+            <div className="grid justify items-center grid-flow-row md:grid-cols-2 lg:grid-cols-3 grid-rows-auto gap-4 px-2 md:px-8">
 
                 {
                     isLoading ?

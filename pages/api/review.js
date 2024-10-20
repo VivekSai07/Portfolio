@@ -1,6 +1,15 @@
 const review = [
     {
         id: 0,
+        clientName: "Enhanced Alzheimer's Disease Classification: A Stacked Model Fusion with Brain MRI Imaging",
+        clientLocation: 'IEEE',
+        clientSource: '03 September 2024',
+        // clientReview: "Proud recipient of the 3rd Rank Certificate in the 6th semester at CAMPUS DAY'24, recognizing academic excellence. Grateful for the opportunity to showcase dedication and passion for learning.",
+        PaperURL: "https://ieeexplore.ieee.org/document/10649320",
+        conferenceName: "2024 InC4"
+    },
+    {
+        id: 1,
         clientName: 'MedDQN: A Deep Reinforcement learning approach for Biomedical Image classification',
         clientLocation: 'IEEE',
         clientSource: '18 April 2024',
