@@ -6,7 +6,7 @@ import HonorCard from "./HonorCard";
 
 
 
-const ClientReviews = () => {
+const Honors = () => {
 
     const { isLoading, error, data } = useQuery('honors', () =>
         axios.get('api/honors')
@@ -22,7 +22,7 @@ const ClientReviews = () => {
                 {
                     isLoading ?
                         [1, 2, 3, 4, 5].map(() => (
-                            <ParagraphSkeleton className="w-80 md:w-96 h-full p-4 md:p-8" />
+                            <ParagraphSkeleton className="space-y-2 p-8" />
                         ))
                         :
                         data?.map((data, key) => (
@@ -36,4 +36,4 @@ const ClientReviews = () => {
     )
 }
 
-export default ClientReviews
+export default Honors

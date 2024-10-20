@@ -8,7 +8,8 @@ import CardLayout from '../../Common/CardLayout'
 const ReviewCard = ({ data }) => {
     return (
         <CardLayout>
-            <div className="flex flex-col justify-between card_stylings w-80 md:w-96 h-full  p-4 md:p-8">
+            {/* <div className="flex flex-col justify-between card_stylings w-80 md:w-96 h-full  p-4 md:p-8"> */}
+            <div className="h-full space-y-2 p-8 card_stylings">
                 <div className="flex justify-between items-center">
                     <div className="flex flex-col gap-2">
                         {/* <span className="text-sm text-Snow font-bold">{data?.clientName}</span> */}
