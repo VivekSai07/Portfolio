@@ -3,9 +3,9 @@ export const NAME = 'T Vivek Sai Surya Chaitanya';
 export const DESIGNATION = 'AI Developer | Open Source Contributor | Robotics Enthusiast';
 
 export const DETAILS = {
-  Residence: 'India',
-  City: 'Rajahmundry',
-  Age: '21',
+  Residence: 'Germany',
+  City: 'Stuttgart',
+  Age: '22',
 };
 
 export const SKILLS = [
@@ -15,68 +15,49 @@ export const SKILLS = [
   },
   {
     title: 'Deep Learning',
-    level: '80%',
-  },
-  {
-    title: 'Data Processing and Analysis',
-    level: '75%',
+    level: '85%',
   },
   {
     title: 'Computer Vision',
-    level: '70%',
+    level: '80%',
   },
   {
-    title: 'ROS',
-    level: '43%',
+    title: 'Robotics & ROS',
+    level: '75%',
+  },
+  {
+    title: 'Data Analysis & Processing',
+    level: '75%',
   },
 ];
 
-export const TECH_STACK = [
-  // 'JavaScript',
-  // 'ReactJS',
-  // 'NextJS',
-  // 'TypeScript',
-  // 'NodeJS',
-  // 'Redux',
-  // 'Zustand',
-  // 'CSS',
-  // 'SCSS',
-  // 'TailwindCSS',
-  // 'Ant Design',
-  // 'Material UI',
-  // 'Next UI',
-  // 'REST API',
-  // 'MongoDB',
-  // 'MySQL',
-  // 'Git',
-  // 'GitHub',
-  // 'Jira',
-  // 'Figma',
-  // 'Adobe XD',
 
+export const TECH_STACK = [
   'Python',
   'Java',
   'TensorFlow',
   'PyTorch',
-  'Scikit-learn',
   'Keras',
+  'Scikit-learn',
   'OpenCV',
-  'NLTK',
+  'ROS',
   'Pandas',
   'NumPy',
   'Matplotlib',
   'Seaborn',
+  'NLTK',
   'AWS',
   'Git',
   'GitHub',
   'MySQL',
-
-
+  'Linux',
+  'Docker',
 ];
+
 
 export const CONTACTS = {
   EMAIL: 'viveksaisurya07@gmail.com',
-  PHONE: '+91 8520099644',
+  PHONE: '+49 15510 421564',
 };
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/VivekSai07',

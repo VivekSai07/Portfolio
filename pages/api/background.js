@@ -6,7 +6,7 @@ const background = [
                 title: 'University of Stuttgart',
                 degree: 'Masters, Computer Science',
                 detail: "Masters in Computer Science with major in Autonomous Systems.",
-                year: '2024-2026'
+                year: '2024-Present'
             },
             {
                 id: 1,
@@ -35,31 +35,27 @@ const background = [
         expCards: [
             {
                 id: 1,
+                title: 'University of Stuttgart',
+                role: 'Student Assistant',
+                url: 'https://www.iwb.uni-stuttgart.de/en/research/construction-robotics/',
+                desc: [
+                    "Implemented a vision-guided pick-and-place pipeline for the Franka Research 3 (FR3) collaborative robot using AprilTag-based 6D pose estimation to autonomously assemble wooden hexagon cassettes.",
+                    "Developed and optimized AI-driven perception and control algorithms for automated Lashing Joint assembly, improving precision and cycle time in robotic manufacturing workflows.",
+                    "Integrated camera-based marker detection with ROS2 for real-time feedback control and enhanced robotic positioning accuracy.",
+                    "Contributed to the synchronization of dual robotic systems for coordinated manipulation tasks, including lashing and prestressing of timber elements, leveraging multi-robot communication and control frameworks."
+                ],
+                year: '12/2024 - 09/2025',
+                location: 'Vaihingen, Stuttgart, Baden-Württemberg, Germany'
+            },
+            {
+                id: 1,
                 title: 'IIITDM Kancheepuram',
                 role: 'Research Intern',
                 url: 'https://old.iiitdm.ac.in/docs/2%20Vritika%20Brochure_revised.pdf',
-                desc: "The primary objective of the research was to achieve precise Liver Tumor Classification. So, I've developed and implemented an innovative model that combines keras pre-trained models with vision transformers (HybridViT). By employing deep learning algorithms and image processing techniques, I made valuable contributions to the progress of medical imaging technolog",
+                desc: "The primary objective of the research was to achieve precise Liver Tumor Classification. So, I've developed and implemented an innovative model that combines keras pre-trained models with vision transformers (HybridViT). By employing deep learning algorithms and image processing techniques, I made valuable contributions to the progress of medical imaging technology",
                 year: '06/2023 - 08/2023',
-                location: 'Kancheepuram, Chennai, Tamil Nadu'
+                location: 'Kancheepuram, Chennai, Tamil Nadu, India'
             },
-            // {
-            //     id: 2,
-            //     title: 'HauzaTech',
-            //     role: 'Internee',
-            //     url: 'no website',
-            //     desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-            //     year: '02/2023 - Present',
-            //     location: 'Peshawar, Pakistan'
-            // },
-            // {
-            //     id: 3,
-            //     title: 'Encoder Bytes',
-            //     role: 'PHP Developer',
-            //     url: 'https://www.encoderbytes.com/',
-            //     desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-            //     year: '09/2020 - 02/2021',
-            //     location: 'Peshawar, Pakistan'
-            // },
 
         ]
     }
