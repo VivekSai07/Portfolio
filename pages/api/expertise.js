@@ -1,28 +1,28 @@
 const expertise = [
     {
         id: 0,
-        title: 'Machine Learning',
-        desc: "As a machine learning practitioner, I specialize in supervised, unsupervised, and reinforcement learning, focusing on optimizing models for high performance and valuable outcomes.",
+        title: 'Robotics and Autonomous Systems',
+        desc: "Proficient in ROS 2 and robotics frameworks, I design and integrate software for autonomous mobile platforms and manipulators, covering perception, localization, navigation, and motion coordination.",
     },
     {
         id: 1,
-        title: 'Deep Learning',
-        desc: "Proficient in TensorFlow and PyTorch, I design and train deep neural networks like CNNs, RNNs, and transformers. Skilled in data augmentation and model optimization, I innovate to advance AI capabilities.",
+        title: 'Perception and Sim-to-Real Transfer',
+        desc: "I build perception pipelines using Intel RealSense, NVIDIA cuVSLAM/nvblox, and camera calibration, and validate them through sim-to-real transfer, closing the gap between simulation and physical deployment.",
     },
     {
         id: 2,
-        title: 'Natural Language Processing (NLP) and Text Analytics',
-        desc: 'With a focus on natural language processing (NLP), my expertise lies in crafting algorithms for text classification, sentiment analysis, and named entity recognition.',
+        title: 'Simulation',
+        desc: "Skilled in NVIDIA Isaac Sim, MuJoCo, and Gazebo, I prototype, debug, and benchmark robotic behaviors and manipulation pipelines in controlled virtual environments before real-world deployment.",
     },
     {
         id: 3,
         title: 'Computer Vision and Image Processing',
-        desc: "I specialize in tasks like object detection, image segmentation, and facial recognition, by utilizing deep learning architectures like CNNs and GANs, applying them to various computer vision applications.",
+        desc: "I specialize in tasks like object detection, 6-DoF pose estimation, and image segmentation, utilizing deep learning architectures like CNNs and Vision Transformers across research and applied projects.",
     },
     {
         id: 4,
-        title: 'Robotics and Autonomous Systems',
-        desc: "Proficient in Python and robotics frameworks like ROS (Robot Operating System), I design algorithms for perception, localization, and motion planning.",
+        title: 'Machine Learning and Deep Learning',
+        desc: "Proficient in PyTorch and TensorFlow, I design, train, and evaluate deep neural networks, applying model optimization and benchmarking to deliver reliable, high-performing systems.",
     },
 ]
 

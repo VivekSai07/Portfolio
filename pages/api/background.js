@@ -34,25 +34,51 @@ const background = [
     {
         expCards: [
             {
-                id: 1,
-                title: 'University of Stuttgart',
-                role: 'Student Assistant',
-                url: 'https://www.iwb.uni-stuttgart.de/en/research/construction-robotics/',
+                id: 0,
+                title: 'Porsche Engineering Services GmbH',
+                role: 'Working Student -- Humanoid Robotics, Development & Validation',
+                url: 'https://www.porsche-engineering.com/',
                 desc: [
-                    "Implemented a vision-guided pick-and-place pipeline for the Franka Research 3 (FR3) collaborative robot using AprilTag-based 6D pose estimation to autonomously assemble wooden hexagon cassettes.",
-                    "Developed and optimized AI-driven perception and control algorithms for automated Lashing Joint assembly, improving precision and cycle time in robotic manufacturing workflows.",
-                    "Integrated camera-based marker detection with ROS2 for real-time feedback control and enhanced robotic positioning accuracy.",
-                    "Contributed to the synchronization of dual robotic systems for coordinated manipulation tasks, including lashing and prestressing of timber elements, leveraging multi-robot communication and control frameworks."
+                    "Developed and integrated robotics software for autonomous mobile platforms using ROS 2, NVIDIA Isaac ROS, and Jetson, enabling perception, localization, and navigation capabilities.",
+                    "Built and maintained Docker-based deployment workflows for embedded robotics applications, debugging complex middleware, networking, dependency, and containerization challenges across development and production environments.",
+                    "Integrated and evaluated hardware components including cameras, audio systems, and onboard compute, while contributing to simulation, visualization, and real-world robot validation.",
+                    "Collaborated with cross-functional engineering teams through code reviews, technical documentation, and feature validation, delivering production-ready robotics software and deployment improvements."
                 ],
-                year: '12/2024 - 09/2025',
-                location: 'Vaihingen, Stuttgart, Baden-Württemberg, Germany'
+                year: '04/2026 - Present',
+                location: 'Stuttgart, Baden-Württemberg, Germany'
             },
             {
                 id: 1,
+                title: 'Socially Intelligent Robotics (SIR) Lab, University of Stuttgart',
+                role: 'Student Assistant',
+                url: 'https://www.iss.uni-stuttgart.de/en/research/sir/',
+                desc: [
+                    "Performed complete hardware bring-up and configuration of 2 FER robotic platforms, enabling stable, reproducible operation across research experiments.",
+                    "Debugged hardware-software integration issues across sensor and control interfaces, cutting experiment setup failures by ~40% and improving overall system uptime during trials.",
+                    "Prototyped and evaluated learning-based robotic behaviors in NVIDIA Isaac Sim, focusing on sim-to-real transfer."
+                ],
+                year: '11/2025 - 06/2026',
+                location: 'Stuttgart, Baden-Württemberg, Germany'
+            },
+            {
+                id: 2,
+                title: 'Construction Robotics, University of Stuttgart',
+                role: 'Student Assistant',
+                url: 'https://www.iwb.uni-stuttgart.de/en/research/construction-robotics/',
+                desc: [
+                    "Developed ROS 2-based robotic software for manipulation tasks, including perception integration, task execution, and motion coordination.",
+                    "Implemented and validated pose estimation and control loops, analyzing failure cases across simulation and real robot deployments.",
+                    "Conducted sim-to-real validation across manipulation tasks, identifying a ~15% perception accuracy gap between simulation and physical deployment and reducing it to under 5% through calibration and pipeline tuning."
+                ],
+                year: '12/2024 - 03/2026',
+                location: 'Vaihingen, Stuttgart, Baden-Württemberg, Germany'
+            },
+            {
+                id: 3,
                 title: 'IIITDM Kancheepuram',
                 role: 'Research Intern',
                 url: 'https://old.iiitdm.ac.in/docs/2%20Vritika%20Brochure_revised.pdf',
-                desc: "The primary objective of the research was to achieve precise Liver Tumor Classification. So, I've developed and implemented an innovative model that combines keras pre-trained models with vision transformers (HybridViT). By employing deep learning algorithms and image processing techniques, I made valuable contributions to the progress of medical imaging technology",
+                desc: "Implemented and benchmarked deep learning models (CNNs, Vision Transformers) using PyTorch and TensorFlow, and designed data preprocessing, augmentation, and evaluation pipelines to analyze robustness and generalization of models -- work that later contributed to a published HybridViT model for Liver Tumor and Alzheimer's Disease classification.",
                 year: '06/2023 - 08/2023',
                 location: 'Kancheepuram, Chennai, Tamil Nadu, India'
             },

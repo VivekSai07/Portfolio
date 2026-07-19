@@ -1,6 +1,6 @@
 export const NAME = 'T Vivek Sai Surya Chaitanya';
 
-export const DESIGNATION = 'AI Developer | Open Source Contributor | Robotics Enthusiast';
+export const DESIGNATION = 'Robotics Software Engineer | Autonomous Systems | AI Developer';
 
 export const DETAILS = {
   Residence: 'Germany',
@@ -10,48 +10,47 @@ export const DETAILS = {
 
 export const SKILLS = [
   {
-    title: 'Machine Learning',
+    title: 'Robotics & ROS 2',
     level: '90%',
   },
   {
-    title: 'Deep Learning',
+    title: 'Perception & Sim-to-Real',
+    level: '85%',
+  },
+  {
+    title: 'Simulation (Isaac Sim, MuJoCo, Gazebo)',
+    level: '85%',
+  },
+  {
+    title: 'Machine Learning & Deep Learning',
     level: '85%',
   },
   {
     title: 'Computer Vision',
     level: '80%',
   },
-  {
-    title: 'Robotics & ROS',
-    level: '75%',
-  },
-  {
-    title: 'Data Analysis & Processing',
-    level: '75%',
-  },
 ];
 
 
 export const TECH_STACK = [
   'Python',
-  'Java',
+  'C++',
+  'ROS 2',
+  'NVIDIA Isaac ROS',
+  'NVIDIA Isaac Sim',
+  'MuJoCo',
+  'Gazebo',
   'TensorFlow',
   'PyTorch',
-  'Keras',
-  'Scikit-learn',
   'OpenCV',
-  'ROS',
-  'Pandas',
-  'NumPy',
-  'Matplotlib',
-  'Seaborn',
-  'NLTK',
-  'AWS',
+  'Open3D',
+  'NVIDIA cuVSLAM',
+  'Intel RealSense',
+  'Jetson Orin NX',
+  'Docker',
   'Git',
   'GitHub',
-  'MySQL',
-  'Linux',
-  'Docker',
+  'Linux/Bash',
 ];
 
 

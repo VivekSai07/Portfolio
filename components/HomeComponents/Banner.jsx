@@ -20,11 +20,11 @@ const Banner = () => {
                                             <Typewriter
                                                 options={{
                                                     strings:
-                                                        ['an AI Developer',
-                                                         'a Robotics Enthusiast',
+                                                        ['a Robotics Software Engineer',
+                                                         'into Autonomous Systems',
                                                          'an ML Engineer',
-                                                         'an Enthusiastic Researcher',
-                                                         'into Python Coding',
+                                                         'a Sim-to-Real Researcher',
+                                                         'into ROS 2 & Robot Perception',
                                                          'an Open Source Contributor'],
                                                     autoStart: true,
                                                     loop: true,
@@ -61,7 +61,7 @@ const Banner = () => {
                     </div>
 
                     <div className="flex items-center gap-x-1">
-                        <span className='text-base md:text-lg text-Green font-bold'>4+</span>
+                        <span className='text-base md:text-lg text-Green font-bold'>7</span>
                         <span className='text-xs text-Snow'>Publications</span>
                     </div>
 

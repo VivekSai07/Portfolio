@@ -1,5 +1,31 @@
 const portfolio = [
     {
+        id: 12,
+        projectName: "ContactPilot — Vision-Based Robotic Grasping Pipeline",
+        url: "https://github.com/VivekSai07/ContactPilot",
+        image: "projects/kinematics.jpg",
+        projectDetail: "An end-to-end pick-and-place pipeline for a Franka Panda arm, integrating Contact-GraspNet (PyTorch) for 6-DoF grasp prediction, MuJoCo physics simulation, and multi-camera point-cloud fusion from calibrated RGB-D input. A seed-based benchmarking harness was used to systematically evaluate and tune grasp ranking, gripper control, and contact-friction physics, raising pick-and-place success rate from 38% to 93%.",
+        technologiesUsed: [
+            { tech: "Python" },
+            { tech: "PyTorch" },
+            { tech: "MuJoCo" },
+            { tech: "Open3D" },
+            { tech: "6-DoF Grasp Prediction" },
+        ]
+    },
+    {
+        id: 13,
+        projectName: "Vision-Language-Control Robot in Simulation",
+        url: "https://github.com/VivekSai07/vision-language-control-robot",
+        image: "projects/RoboViz.png",
+        projectDetail: "A simulation-based robotic system combining state estimation, decision logic, and motion execution, used to prototype, debug, and validate perception-to-action pipelines in a controlled environment ahead of real-world deployment.",
+        technologiesUsed: [
+            { tech: "MuJoCo" },
+            { tech: "Python" },
+            { tech: "Vision-Language Models" },
+        ]
+    },
+    {
         id: 0,
         projectName: "Efficient Real Time Object Detection in Videos using MobileNetSSD",
         url: "https://github.com/VivekSai07/Efficient-Real-Time-Object-Detection-in-Videos-using-MobileNetSSD",
@@ -208,7 +234,7 @@ const portfolio = [
         projectName: "Differential Drive FusionBot: From CAD to Autonomous Mapping",
         url: "https://github.com/VivekSai07/Differential-Drive-Bot-Simulation",
         image: "projects/diffdrive.png",
-        projectDetail: "This project aims to provide a comprehensive simulation environment for a differential drive robot. The robot model is designed in Fusion 360 and converted to URDF. It is controlled using ROS and simulated in Gazebo, featuring a laser sensor for mapping purposes.",
+        projectDetail: "Designed a mobile robot from CAD to URDF, integrating sensors and control interfaces. Implemented Nav2-based path planning and AMCL localization in a ROS 2 architecture, achieving a 90% autonomous navigation success rate across repeated test runs.",
         technologiesUsed: [
             {
                 tech: "Fusion 360"
