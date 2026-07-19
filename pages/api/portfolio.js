@@ -1,5 +1,19 @@
 const portfolio = [
     {
+        id: 14,
+        projectName: "Go2 + Swappable Arm Loco-Manipulation",
+        url: "https://github.com/VivekSai07/quadruped-manipulation-mujoco",
+        image: "projects/diffdrive.png",
+        projectDetail: "A pure-Python MuJoCo simulation of a Unitree Go2 quadruped with a swappable robotic arm (Franka Panda or Kinova Gen3) performing a full autonomous pick-and-place task -- walking to a table, adaptively crouching to optimize arm workspace, grasping a cube via velocity-IK, transporting it to a placement plate, and returning the arm home, entirely without ROS or external SDKs.",
+        technologiesUsed: [
+            { tech: "Python" },
+            { tech: "MuJoCo" },
+            { tech: "Inverse Kinematics" },
+            { tech: "Legged Locomotion" },
+            { tech: "Manipulation" },
+        ]
+    },
+    {
         id: 12,
         projectName: "ContactPilot — Vision-Based Robotic Grasping Pipeline",
         url: "https://github.com/VivekSai07/ContactPilot",

@@ -22,13 +22,6 @@ const background = [
                 detail: "Completed Intermediate studies (+1, & +2, which are prerequisites for engineering) in Andhra Pradesh.",
                 year: '2018-2020'
             },
-            {
-                id: 3,
-                title: 'Narayana Olympiad School',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed Secondary School Education at Narayana School.",
-                year: '2016-2018'
-            },
         ]
     },
     {
