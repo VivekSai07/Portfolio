@@ -1,4 +1,4 @@
-export const review = [
+﻿export const review = [
     {
         id: 0,
         clientName: "Leveraging CNN Features and Vision Transformers for Enhanced Focal Liver Lesion Classification",
@@ -10,7 +10,7 @@ export const review = [
     },
     {
         id: 1,
-        clientName: "HybridViT: An Approach for Alzheimer's Disease Classification with ADNI Neuroimaging Data",
+        clientName: "HybridViT: An Approach for Alzheimer’s Disease Classification with ADNI Neuroimaging Data",
         clientLocation: 'Springer',
         clientSource: '06 April 2025',
         // clientReview: "Proud recipient of the 3rd Rank Certificate in the 6th semester at CAMPUS DAY'24, recognizing academic excellence. Grateful for the opportunity to showcase dedication and passion for learning.",
