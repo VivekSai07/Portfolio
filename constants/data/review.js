@@ -1,4 +1,4 @@
-﻿export const review = [
+export const review = [
     {
         id: 0,
         clientName: "Leveraging CNN Features and Vision Transformers for Enhanced Focal Liver Lesion Classification",
