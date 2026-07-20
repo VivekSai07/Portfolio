@@ -1,6 +1,7 @@
 import Typewriter from 'typewriter-effect';
 import BannerLayout from '../Common/BannerLayout';
 import { Link } from 'react-scroll';
+import Image from 'next/image';
 
 const Banner = () => {
     return (
@@ -37,7 +38,7 @@ const Banner = () => {
                             {/* <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link> */}
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            <Image className='absolute top-8' src="/images/emoji.png" alt="emoji" fill style={{ objectFit: 'contain' }} />
                         </div>
                     </div>
                 </div>

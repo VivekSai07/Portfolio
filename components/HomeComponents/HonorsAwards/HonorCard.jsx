@@ -6,6 +6,7 @@ import { FaStar } from 'react-icons/fa'
 import CardLayout from '../../Common/CardLayout'
 import { FaUniversity } from "react-icons/fa";
 import { FaCalendar } from "react-icons/fa";
+import Image from 'next/image';
 
 const HonorCard = ({ data }) => {
     return (
@@ -33,15 +34,16 @@ const HonorCard = ({ data }) => {
                         </div>
                         {/* Thumbnail */}
                         {data?.thumbnail && (
-                            <div className="mt-4">
+                            <div className="mt-4 relative w-full h-48">
                                 <a href={data?.certificateLink} target="_blank" rel="noreferrer">
-                                    <img 
-                                        src={data?.thumbnail} 
-                                        alt="Rank Certificate Thumbnail" 
-                                        className="w-auto h-full object-cover opacity-50 hover:opacity-75 transition-opacity duration-300" // Adjust transparency and add hover effect
+                                    <Image
+                                        src={`/${data?.thumbnail}`}
+                                        alt="Rank Certificate Thumbnail"
+                                        fill
+                                        style={{ objectFit: 'cover' }}
+                                        className="opacity-50 hover:opacity-75 transition-opacity duration-300"
                                     />
                                 </a>
-                                {/* <img src={data?.thumbnail} alt="Rank Certificate Thumbnail" className="w-auto h-full object-cover opacity-20 border-Green border-[3px]" /> */}
                             </div>
                         )}
                     {/* </div> */}
