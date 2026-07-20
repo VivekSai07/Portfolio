@@ -1,9 +1,16 @@
-import Badge from "../Common/Badge"
+import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Badge from "../Common/Badge"
 
 const PortfolioCard = ({ data }) => {
     return (
-        <div className="card_stylings overflow-hidden h-full">
+        <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.2 }}
+            transition={{ duration: 0.5, ease: 'easeOut' }}
+            className="card_stylings overflow-hidden h-full"
+        >
             <div className="relative w-full h-32 sm:h-48 md:h-64">
                 <Image
                     src={`/${data?.image}`}
@@ -56,7 +63,7 @@ const PortfolioCard = ({ data }) => {
                     {data.technologiesUsed.map((index, key) => <Badge key={key} title={index.tech} />)}
                 </div>
             </div>
-        </div>
+        </motion.div>
     )
 }
 
