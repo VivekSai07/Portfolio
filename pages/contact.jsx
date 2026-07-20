@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import BannerLayout from '../components/Common/BannerLayout';
+import Seo from '../components/Common/Seo';
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { SiUpwork } from 'react-icons/si'
 import { HiMail, HiUser } from 'react-icons/hi'
@@ -13,6 +14,11 @@ const Contact = () => {
 
     return (
         <BannerLayout>
+            <Seo
+                title="Contact — T Vivek Sai Surya Chaitanya"
+                description="Get in touch with T Vivek Sai Surya Chaitanya via email or LinkedIn."
+                path="/contact"
+            />
             <div className=" px-4 py-2">
                 <div className="my-6 text-Snow flex flex-col gap-y-5">
                     <h1 className='text-lg font-bold'>Contact Information</h1>
